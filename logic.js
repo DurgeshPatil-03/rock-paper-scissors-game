@@ -14,7 +14,7 @@ const genChoice = () => {
 
 const draw = () => {
     console.log("Game is Draw");
-    msg.innerText = `Match Draw!, User Chose ${userChoice}`;
+    msg.innerText = "Match Draw";
     msg.style.backgroundColor = "gray";
 }
 
