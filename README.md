@@ -1,205 +1,121 @@
-🪨📄✂️ Rock–Paper–Scissors Game
+# Rock–Paper–Scissors Game – HTML, CSS & JavaScript
 
 A simple and interactive Rock–Paper–Scissors game built using HTML, CSS, and JavaScript.
-The user plays against the computer, and scores update in real-time.
+This project allows the user to play against the computer with real-time score updates and clean UI elements.
+A great beginner-friendly JavaScript logic project.
 
-🚀 Live Demo
+---
 
-You can host this project on GitHub Pages (optional).
-(Add your link here once deployed)
+## 🛠 Technologies Used
 
-📸 Screenshots
-Game UI
+* **HTML5**
 
-Rock
+* **CSS3**
 
-Paper
+* **JavaScript (Vanilla JS)**
 
-Scissors
-(You can upload your images to GitHub and link them here)
+* **DOM Manipulation**
 
-🛠️ Features
+* **Event Listeners**
 
-✔️ Click-based game choices (Rock, Paper, Scissor)
+---
 
-✔️ Random computer choice generation
+## 📁 Folder Structure
 
-✔️ Live score tracking
+```
+/ (root)
+├─ index.html
+├─ style.css
+├─ logic.js
+├─ rock.png
+├─ paper.png
+└─ scissors.png
+```
 
-✔️ Win/Lose/Draw detection
+---
 
-✔️ Dynamic message updates
+## ✨ Features
+### ✔ 1. Clickable Choices
 
-✔️ Clean UI with hover effects
+* Rock, Paper, and Scissor icons
 
-📂 Project Structure
-📁 Rock-Paper-Scissors
-│── index.html
-│── style.css
-│── logic.js
-│── rock.png
-│── paper.png
-│── scissors.png
+* Hover and active effects
 
-📑 How It Works
-1. User selects a choice
+* Circle-styled buttons
 
-Clicking a choice triggers the game logic:
+### ✔ 2. Game Logic
 
-choice.addEventListener("click", ()=>{
-    let userChoice = choice.getAttribute("id");
-    game(userChoice);
-});
+* Random computer selection
 
-2. Computer generates a random choice
-const options = ["rock", "paper", "scissor"];
-const idxChoice = Math.floor(Math.random() * 3);
+* Win / Lose / Draw calculation
 
-3. Game result is calculated
+* Real-time console logs for debugging
 
-The program checks win/lose/draw conditions and updates the message + score.
+### ✔ 3. Live Scoreboard
 
-🎮 How to Play
+* Tracks User Score
 
-Click on Rock, Paper, or Scissor.
+* Tracks Computer Score
 
-Computer instantly picks a random move.
+* Updates instantly after each match
 
-The result is shown with a colored message:
+### ✔ 4. Dynamic Messages
 
-🟩 Green → You Win
+* Green message for Win
 
-🟥 Red → You Lose
+* Red message for Lose
 
-🟦/Gray → Draw
+* Gray message for Draw
 
-Scores update after each round.
+* Clean notification box
 
-📦 Installation & Usage
+---
 
-Clone the repository:
+### 🔧 How to Run Locally
 
-git clone https://github.com/your-username/your-repo-name.git
+1. Clone or download this repository:
 
+git clone https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game
 
-Open the project folder:
 
-cd your-repo-name
+2. Open the project folder
 
+3. Double-click index.html to run in your browser
 
-Run the game by simply opening index.html in your browser.
+No installation required.
 
-🧪 Technologies Used
+---
 
-HTML5
+## 📈 Future Improvements
 
-CSS3
+* Add sound effects
 
-JavaScript (Vanilla JS)
+* Add animations for win/lose
 
-🙌 Author
+* Add restart button
 
-Your Name
-(Add GitHub link or social links if you want)
+* Improve responsiveness for mobile
 
-⭐ Like this project?
+---
 
-If you found this useful, consider giving the repository a star on GitHub! 🌟
+## 📸 Screenshots
 
-If you want, I can also:
+### 🟦 Game Start
+![game start](https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game/blob/69b52a70b83297c8d04d1be675d2ef859ebd7125/Screenshots/Screenshot%202025-12-01%20234905.png)
 
-✅ Create badges (shields.io)
-✅ Add GIF demo
-✅ Improve styling suggestions
-✅ Create a better project description for GitHub
+### 🔴 You Lose
+![You Lose](https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game/blob/69b52a70b83297c8d04d1be675d2ef859ebd7125/Screenshots/Screenshot%202025-12-01%20234926.png)
 
-Just tell me!
+### ⚫️ Match Draw
+![Match Draw](https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game/blob/69b52a70b83297c8d04d1be675d2ef859ebd7125/Screenshots/Screenshot%202025-12-01%20234948.png)
 
-You said:
-Create direct readme file that i copy paste it
-ChatGPT said:
+### 🟩 You Win
+![You Win](https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game/blob/69b52a70b83297c8d04d1be675d2ef859ebd7125/Screenshots/Screenshot%202025-12-01%20235034.png)
 
-Here is your copy–paste ready README.md — clean, simple, and perfect for GitHub.
-Just copy everything below and paste into your README.md file.
+---
 
-🪨📄✂️ Rock–Paper–Scissors Game
-
-A simple and interactive Rock–Paper–Scissors game built using HTML, CSS, and JavaScript.
-Play against the computer, track your score, and enjoy a clean and responsive UI.
-
-🚀 Live Demo
-
-(Add your GitHub Pages link here if you host it)
-
-📸 Screenshots
-
-(Add images after uploading them to GitHub)
-
-🛠️ Features
-
-Click-based selection (Rock, Paper, Scissor)
-
-Random computer move generation
-
-Live score tracking
-
-Win / Lose / Draw detection
-
-Dynamic message updates
-
-Smooth UI with hover effects
-
-📂 Project Structure
-📁 Rock-Paper-Scissors
-│── index.html
-│── style.css
-│── logic.js
-│── rock.png
-│── paper.png
-│── scissors.png
-
-🎮 How to Play
-
-Click on Rock, Paper, or Scissor
-
-Computer selects a random move
-
-Result displays instantly
-
-Scores update automatically
-
-🧠 How It Works
-
-JavaScript listens for user clicks
-
-Generates a random computer choice
-
-Compares both choices
-
-Updates:
-
-Message (Win/Lose/Draw)
-
-Colors (Green/Red/Gray)
-
-Scores
-
-🧪 Technologies Used
-
-HTML
-
-CSS
-
-JavaScript
-
-📦 Installation (Local Setup)
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-
-Open index.html in your browser.
-
-🙌 Author
+## 👤 Author
 
 Durgesh Shewale
-https://github.com/DurgeshPatil-03
+
+Frontend Developer (HTML/CSS/JS)
